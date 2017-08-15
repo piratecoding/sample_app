@@ -289,3 +289,29 @@ span.picture {
     border: 0;
   }
 }
+
+/* Carousel */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+  width: auto;
+  height: 430px;
+  max-height: 430px;
+}
+
+.carousel-caption {
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-shadow: none;
+  & .btn {
+    text-shadow: none; // No shadow for button elements in carousel-caption
+  }
+}

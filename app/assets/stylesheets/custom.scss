@@ -321,5 +321,22 @@ span.picture {
 .container2 {
   display: flex;
   width: 100%;
+  width: auto;
+  position: relative;
 }
 
+.left, .right {
+width: 33%;
+float: left;
+}
+
+.row {
+float: left;
+min-width: 33%;
+width: auto;
+position: relative;
+}
+
+.clearBoth {
+clear: both;
+}
